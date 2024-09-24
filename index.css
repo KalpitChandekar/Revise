@@ -12,8 +12,7 @@ html {
 #main {
   height: 50%;
   width: 50%;
-  margin-left: 20px;
-  margin-top: 40px;
+  margin: 20px;
   padding-top: 30px;
   padding-left: 20px;
   background-image: url(https://images.unsplash.com/photo-1726859134607-bc9f46492fc2?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
@@ -25,4 +24,53 @@ html {
 #main h1 {
   color: red;
   text-align: center;
+}
+#box1 {
+  height: 60px;
+  width: 90px;
+  background-color: blue;
+  position: absolute;
+  left: 280px;
+  top: 150px;
+}
+#box2 {
+  height: 80px;
+  width: 110px;
+  background-color: green;
+  position: absolute;
+  left: 200px;
+  top: 100px;
+  z-index: 10;
+}
+#box3 {
+  height: 100px;
+  width: 150px;
+  background-color: red;
+  position: absolute;
+  position: absolute;
+  left: 100px;
+  top: 50px;
+}
+
+#grandparentbox {
+  height: 70%;
+  width: 40%;
+  background-color: blue;
+  position: relative;
+}
+#parentbox {
+  height: 70%;
+  width: 40%;
+  background-color: red;
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+#childbox {
+  height: 30%;
+  width: 40%;
+  background-color: yellow;
+  position: absolute;
+  left: 20%;
+  top: 50%;
 }
